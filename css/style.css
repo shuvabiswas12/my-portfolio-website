@@ -10,6 +10,7 @@
 :root {
   --nav-btn-selected-bg-color: #616161;
   --nav-bottoms-icon-color: #ffffff;
+  --nav-btn-bg-color: #363d51;
   --nav-bg-color: #301735;
   --name-color: #ffffff;
   --nav-items-color: #a4acb0;
@@ -190,7 +191,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--nav-items-hover-fg-color);
-  background-color: var(--nav-bottoms-icon-color);
+  background-color: var(--nav-btn-bg-color);
   border-left: 5px solid var(--nav-items-hover-fg-color);
 }
 
@@ -483,8 +484,12 @@ fieldset > legend {
 .contact {
   background-color: var(--column-bg-color);
   margin: 10px;
-  flex-basis: 18rem;
-  width: 220px;
+  /* flex-basis: 18rem; */
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px 0;
+  word-wrap: break-word;
 }
 
 .contact-id {
@@ -625,6 +630,14 @@ fieldset > legend {
   #side-nav .nav-bottoms-icons {
     height: calc(100% - 74%);
   }
+  .skill progress {
+    width: calc(100vw - 63vw);
+    height: 20px;
+  }
+  fieldset > legend {
+    color: var(--nav-items-color);
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -637,9 +650,20 @@ fieldset > legend {
   #side-nav .nav-bottoms-icons {
     height: calc(100% - 82%);
   }
+  fieldset > legend {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 320px) {
+  .contact {
+    max-width: 21.8rem;
+  }
+
+  .skill progress {
+    width: calc(100vw - 71vw);
+  }
+
   .container_row {
     height: calc(100vh - 40vh);
   }
@@ -685,6 +709,12 @@ fieldset > legend {
     z-index: 1;
     transition: all 0.5s ease;
     left: -69%;
+  }
+  .skill {
+    padding: 2px 0;
+  }
+  fieldset > legend {
+    font-size: 1.1rem;
   }
 }
 
