@@ -246,7 +246,7 @@ nav .nav-icons {
 /* navs bottom icons starts */
 .nav-bottoms-icons {
   font-size: 2rem;
-  height: calc(100% - 35%);
+  height: calc(100% - 45%);
   display: flex;
   justify-content: center;
   align-items: flex-end;
