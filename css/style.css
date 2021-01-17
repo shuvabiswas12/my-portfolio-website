@@ -9,7 +9,7 @@
 
 :root {
   --nav-btn-selected-bg-color: #616161;
-  --nav-bottoms-icon-color: #363e52;
+  --nav-bottoms-icon-color: #ffffff;
   --nav-bg-color: #301735;
   --name-color: #ffffff;
   --nav-items-color: #a4acb0;
@@ -246,7 +246,7 @@ nav .nav-icons {
 /* navs bottom icons starts */
 .nav-bottoms-icons {
   font-size: 2rem;
-  height: calc(100% - 45%);
+  height: calc(100vh - 92%);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -303,7 +303,7 @@ nav .nav-icons {
 .tabs-header .github li a i {
   margin-right: 40px;
   margin-top: 50px;
-  color: var(--links-color);
+  color: var(--nav-bottoms-icon-color);
   position: absolute;
   right: 10%;
   transform: translateX(-10%);
@@ -622,11 +622,20 @@ fieldset > legend {
   .container_row {
     height: calc(100vh - 35vh);
   }
+  #side-nav .nav-bottoms-icons {
+    height: calc(100% - 74%);
+  }
 }
 
 @media (max-width: 375px) {
   .container_row {
     height: calc(100vh - 37vh);
+  }
+}
+
+@media (max-width: 360px) {
+  #side-nav .nav-bottoms-icons {
+    height: calc(100% - 82%);
   }
 }
 
@@ -642,6 +651,29 @@ fieldset > legend {
     z-index: 1;
     transition: all 0.5s ease;
     left: -59%;
+  }
+
+  #side-nav .nav-bottoms-icons {
+    height: calc(100% - 85%);
+  }
+
+  nav figure .nav_photo {
+    width: 76px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .about figure {
+    margin: 0;
+  }
+  .carrier-objectives p {
+    margin: 0;
+    padding: 0;
+  }
+  .carrier-objectives .table {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1rem;
   }
 }
 
