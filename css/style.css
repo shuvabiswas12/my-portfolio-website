@@ -392,10 +392,10 @@ nav .nav-icons {
 .carrier-objectives {
   margin-left: -6px;
 }
-.carrier-objectives .table {
+.table {
   width: 92%;
   margin: 0 20px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Open Sans", serif;
   border: none !important;
   color: var(--project-title-fg-color);
@@ -404,6 +404,7 @@ nav .nav-icons {
 .table th,
 .table td {
   display: inline-block;
+  word-break: break-all;
 }
 
 .table th {
@@ -484,7 +485,6 @@ fieldset > legend {
 .contact {
   background-color: var(--column-bg-color);
   margin: 10px;
-  /* flex-basis: 18rem; */
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -638,7 +638,10 @@ fieldset > legend {
     color: var(--nav-items-color);
     font-size: 1.6rem;
   }
+  .contact {
+    max-width: calc(100vw - 30vw);
 }
+
 
 @media (max-width: 375px) {
   .container_row {
