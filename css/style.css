@@ -247,7 +247,7 @@ nav .nav-icons {
 /* navs bottom icons starts */
 .nav-bottoms-icons {
   font-size: 2rem;
-  height: calc(100vh - 92%);
+  height: calc(100vh - 95%);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -628,7 +628,7 @@ fieldset > legend {
     height: calc(100vh - 35vh);
   }
   #side-nav .nav-bottoms-icons {
-    height: calc(100% - 74%);
+    height: calc(100% - 80%);
   }
   .skill progress {
     width: calc(100vw - 63vw);
@@ -646,6 +646,10 @@ fieldset > legend {
 @media (max-width: 375px) {
   .container_row {
     height: calc(100vh - 37vh);
+  }
+  .nav-bottoms-icons {
+    height: calc(100% - 80%);
+    height: calc(100% - 80%);
   }
 }
 
