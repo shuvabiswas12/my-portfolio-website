@@ -642,8 +642,12 @@ fieldset > legend {
   }
   .contact {
     max-width: calc(100vw - 30vw);
+  }
+  html {
+    font-size: 54.5%;
+    font-family: "Montserrat", sans-serif;
+  }
 }
-
 
 @media (max-width: 375px) {
   .container_row {
