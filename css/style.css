@@ -628,7 +628,7 @@ fieldset > legend {
     height: calc(100vh - 35vh);
   }
   #side-nav .nav-bottoms-icons {
-    height: calc(100% - 80%);
+    height: calc(100% - 85%);
   }
   .skill progress {
     width: calc(100vw - 63vw);
