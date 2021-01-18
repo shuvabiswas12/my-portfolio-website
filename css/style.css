@@ -436,6 +436,29 @@ nav .nav-icons {
   text-align: center;
   display: block;
   margin: 10px 0;
+  text-decoration: 2px dotted underline;
+  cursor: pointer;
+}
+.project-title:hover {
+  font-size: 1.9rem;
+  color: var(--nav-items-hover-fg-color);
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+  transition: 0.3s all ease;
+  text-decoration: 2px dotted underline;
+}
+.project-image-container:hover {
+  transition: 0.3s all ease;
+  border: 2px solid var(--nav-items-color);
+  padding: 5px;
+}
+.project-image-container:active {
+  transition: 0.3s all ease;
+  transition: 0.2s;
+  border: 2px solid var(--nav-items-color);
+  padding: 5px;
+  background-color: var(--nav-btn-selected-bg-color);
 }
 
 /* projects ends */
