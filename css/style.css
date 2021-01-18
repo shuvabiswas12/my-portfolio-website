@@ -168,6 +168,7 @@ nav figure .nav_photo {
   height: auto;
   margin-top: 36px;
   margin-bottom: 36px;
+  border-radius: 50%;
 }
 
 nav figure {
@@ -418,6 +419,7 @@ nav .nav-icons {
 
 .my-photo {
   width: 100%;
+  border-radius: 50%;
 }
 
 /* about ends */
