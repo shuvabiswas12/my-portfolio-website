@@ -248,18 +248,25 @@ nav .nav-icons {
 /* navs bottom icons starts */
 .nav-bottoms-icons {
   font-size: 2rem;
-  height: calc(100vh - 95%);
+  /* height: calc(100vh - 95%); */
+  position: relative;
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-13%, -15%);
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
 }
 
 #side-nav .nav-bottoms-icons {
   font-size: 2.2rem;
-  height: calc(100% - 54%);
+  /* height: calc(100% - 54%);
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-end; */
+  position: relative;
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-13%, -15%);
+  display: flex;
 }
 
 .nav-bottoms-icons a {
